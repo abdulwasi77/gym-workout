@@ -25,6 +25,4 @@ class HomeScreenController extends GetxController {
     },
     // More items here
   ];
-
-  // Convert mock data to a list of DietItem
 }

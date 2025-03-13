@@ -20,7 +20,7 @@ class MyApp extends StatelessWidget {
       builder: (context, child) {
         return const GetMaterialApp(
           debugShowCheckedModeBanner: false,
-          home: DashboardScreen(),
+          home: SplashScreen(),
         );
       },
     );

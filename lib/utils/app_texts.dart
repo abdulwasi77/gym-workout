@@ -82,4 +82,11 @@ class AppTexts {
       title,
     );
   }
+
+  static Widget darkBlackText({required String title}) {
+    return Text(
+      title,
+      style: AppTextStyle.blackHeaderTextStyle,
+    );
+  }
 }

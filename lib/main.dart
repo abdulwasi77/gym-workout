@@ -1,3 +1,4 @@
+import 'package:gym_workout/dashboard_screen.dart';
 import 'package:gym_workout/utils/export_all.dart';
 
 void main() async {
@@ -19,7 +20,7 @@ class MyApp extends StatelessWidget {
       builder: (context, child) {
         return const GetMaterialApp(
           debugShowCheckedModeBanner: false,
-          home: SplashScreen(),
+          home: DashboardScreen(),
         );
       },
     );

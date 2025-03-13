@@ -82,7 +82,7 @@ Widget _buildDrawer(
               ],
             ).paddingSymmetric(horizontal: 20.w),
             20.h.verticalSpace,
-            dividerWidget(),
+            _dividerWidget(),
             20.h.verticalSpace,
             segrecationController?.getUserTypeFromStorage() ==
                     AppConstants.trainee
@@ -186,7 +186,7 @@ Widget _animatedCard(
             .paddingSymmetric(horizontal: 20.w)
             .paddingOnly(right: Get.width * .15),
       ),
-      dividerWidget(),
+      _dividerWidget(),
     ],
   );
 }
@@ -229,7 +229,7 @@ Widget _logoutCard(
   );
 }
 
-Widget dividerWidget() {
+Widget _dividerWidget() {
   return Divider(
     color: AppColor.whiteColor.withValues(alpha: .5),
     thickness: .4,

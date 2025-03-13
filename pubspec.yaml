@@ -48,6 +48,8 @@ dependencies:
   easy_date_timeline: ^2.0.4
   get_storage: ^2.1.1
   cached_network_image: ^3.4.1
+  circular_countdown_timer: ^0.2.4
+  video_player: ^2.9.2
 
 dev_dependencies:
   flutter_test:
